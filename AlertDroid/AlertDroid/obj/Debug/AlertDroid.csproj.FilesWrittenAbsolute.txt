@@ -1,0 +1,13 @@
+/Users/Administrator/Projects/AlertDroid/AlertDroid/obj/Debug/MonoAndroid,Version=v4.4.AssemblyAttribute.cs
+/Users/Administrator/Projects/AlertDroid/AlertDroid/bin/Debug/AlertDroid.dll.mdb
+/Users/Administrator/Projects/AlertDroid/AlertDroid/bin/Debug/AlertDroid.dll
+/Users/Administrator/Projects/AlertDroid/AlertDroid/bin/Debug/AlertDroid.AlertDroid.apk
+/Users/Administrator/Projects/AlertDroid/AlertDroid/obj/Debug/android/bin/AlertDroid.AlertDroid.apk
+/Users/Administrator/Projects/AlertDroid/AlertDroid/obj/Debug/res/layout/main.xml
+/Users/Administrator/Projects/AlertDroid/AlertDroid/obj/Debug/res/values/strings.xml
+/Users/Administrator/Projects/AlertDroid/AlertDroid/obj/Debug/res/drawable/icon.png
+/Users/Administrator/Projects/AlertDroid/AlertDroid/obj/Debug/R.cs.flag
+/Users/Administrator/Projects/AlertDroid/AlertDroid/bin/Debug/AlertDroid.AlertDroid-Signed.apk
+/Users/Administrator/Projects/AlertDroid/AlertDroid/obj/Debug/uploadflags.txt
+/Users/Administrator/Projects/AlertDroid/AlertDroid/obj/Debug/AlertDroid.dll
+/Users/Administrator/Projects/AlertDroid/AlertDroid/obj/Debug/AlertDroid.dll.mdb

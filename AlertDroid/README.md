@@ -3,7 +3,7 @@ Android Alert Dialog
 
 Alert dialogs are the choose-your-own-adventure of Android - they let the user decide how to proceed in response to some event. This recipe illustrates the creation of a simple two-button dialog using the Android AlertDialog Builder.
 
-![Android Alert Dialog](/Screenshots/alert.png)
+![Android Alert Dialog](/AlertDroid/Screenshots/alert.png)
 
 Recipe
 ======

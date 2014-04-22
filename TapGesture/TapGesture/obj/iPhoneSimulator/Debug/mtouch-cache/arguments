@@ -1,0 +1,27 @@
+# Version: 7.2.1.213 (856e59f)
+# [first argument, ignore] # /Users/Administrator/Desktop/git/xamarin-recipes/TapGesture/TapGesture/bin/iPhoneSimulator/Debug/mtouch.exe
+/Developer/MonoTouch/usr/bin/mtouch \
+	-sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--cache \
+	/Users/Administrator/Desktop/git/xamarin-recipes/TapGesture/TapGesture/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--nomanifest \
+	--nosign \
+	-sim \
+	/Users/Administrator/Desktop/git/xamarin-recipes/TapGesture/TapGesture/bin/iPhoneSimulator/Debug/TapGesture.app \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Xml.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/System.Core.dll \
+	-r \
+	/Developer/MonoTouch/usr/lib/mono/2.1/monotouch.dll \
+	-debug \
+	-nolink \
+	-sdk \
+	7.1 \
+	-targetver \
+	7.0 \
+	--abi=i386 \
+	/Users/Administrator/Desktop/git/xamarin-recipes/TapGesture/TapGesture/bin/iPhoneSimulator/Debug/TapGesture.exe \

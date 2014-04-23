@@ -3,10 +3,10 @@ Show Spinner in an Alert Dialog
 
 Android spinners are dropdown menus that present an easy way to select an item out of a set. This recipe demonstrates how to add a spinner to an Alert Dialog.
 
-![screen](/AlertDroid/Screenshots/01.png)
-![dialog](/AlertDroid/Screenshots/02.png)
-![spinner](/AlertDroid/Screenshots/03.png)
-![selection](/AlertDroid/Screenshots/04.png)
+![screen](/AlertSpinner/Screenshots/01.png)
+![dialog](/AlertSpinner/Screenshots/02.png)
+![spinner](/AlertSpinner/Screenshots/03.png)
+![selection](/AlertSpinner/Screenshots/04.png)
 
 Recipe
 ======

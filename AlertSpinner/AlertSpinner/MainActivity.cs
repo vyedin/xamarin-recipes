@@ -38,9 +38,11 @@ namespace AlertSpinner
 
 				// create the spinner and populate it with our items
 				Spinner spinner = new Spinner(this);
-				spinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs> (ItemSelected);
 				spinner.LayoutParameters = new LinearLayout.LayoutParams (ViewGroup.LayoutParams.WrapContent, ViewGroup.LayoutParams.WrapContent);
 				spinner.Adapter = adapter;
+
+				// handle item selection
+				spinner.ItemSelected += new EventHandler<AdapterView.ItemSelectedEventArgs> (ItemSelected);
 
 				// build the alert dialog
 				AlertDialog.Builder builder = new AlertDialog.Builder(this);

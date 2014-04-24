@@ -1,7 +1,7 @@
 Handle Button Click in Android
 ===============================
 
-C# is versatile and offers us several ways of handling button clicks in Android. This recipe illustrates three ways of wiring a button.
+This recipe illustrates three ways of wiring a button in Android.
 
 ![buttons before](/ButtonDroid/Screenshots/01.png)
 ![buttons after](/ButtonDroid/Screenshots/02.png)

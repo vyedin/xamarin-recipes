@@ -11,7 +11,9 @@ Recipe
 <ol>
 <li>
 <p>First, we'll open our layout file in the Android designer and drag three buttons onto the design surface. We'll edit the properties to give each button a unique id:</p>
-![buttons in designer](/ButtonDroid/Screenshots/03.png)
+
+<p>![buttons in designer](/ButtonDroid/Screenshots/03.png)</p>
+
 </li>
 
 <li>

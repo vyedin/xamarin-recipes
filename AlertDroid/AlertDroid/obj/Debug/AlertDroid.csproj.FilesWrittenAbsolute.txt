@@ -11,3 +11,16 @@
 /Users/Administrator/Projects/AlertDroid/AlertDroid/obj/Debug/uploadflags.txt
 /Users/Administrator/Projects/AlertDroid/AlertDroid/obj/Debug/AlertDroid.dll
 /Users/Administrator/Projects/AlertDroid/AlertDroid/obj/Debug/AlertDroid.dll.mdb
+/Users/Administrator/Desktop/git/xamarin-recipes/AlertDroid/AlertDroid/obj/Debug/MonoAndroid,Version=v4.4.AssemblyAttribute.cs
+/Users/Administrator/Desktop/git/xamarin-recipes/AlertDroid/AlertDroid/bin/Debug/AlertDroid.dll.mdb
+/Users/Administrator/Desktop/git/xamarin-recipes/AlertDroid/AlertDroid/bin/Debug/AlertDroid.dll
+/Users/Administrator/Desktop/git/xamarin-recipes/AlertDroid/AlertDroid/bin/Debug/AlertDroid.AlertDroid.apk
+/Users/Administrator/Desktop/git/xamarin-recipes/AlertDroid/AlertDroid/obj/Debug/android/bin/AlertDroid.AlertDroid.apk
+/Users/Administrator/Desktop/git/xamarin-recipes/AlertDroid/AlertDroid/obj/Debug/res/layout/main.xml
+/Users/Administrator/Desktop/git/xamarin-recipes/AlertDroid/AlertDroid/obj/Debug/res/values/strings.xml
+/Users/Administrator/Desktop/git/xamarin-recipes/AlertDroid/AlertDroid/obj/Debug/res/drawable/icon.png
+/Users/Administrator/Desktop/git/xamarin-recipes/AlertDroid/AlertDroid/obj/Debug/R.cs.flag
+/Users/Administrator/Desktop/git/xamarin-recipes/AlertDroid/AlertDroid/bin/Debug/AlertDroid.AlertDroid-Signed.apk
+/Users/Administrator/Desktop/git/xamarin-recipes/AlertDroid/AlertDroid/obj/Debug/uploadflags.txt
+/Users/Administrator/Desktop/git/xamarin-recipes/AlertDroid/AlertDroid/obj/Debug/AlertDroid.dll
+/Users/Administrator/Desktop/git/xamarin-recipes/AlertDroid/AlertDroid/obj/Debug/AlertDroid.dll.mdb

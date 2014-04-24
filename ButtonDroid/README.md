@@ -1,19 +1,17 @@
 Handle Button Click in Android
 ===============================
 
-C# is versatile and offers us several ways of handling button clicks in Android. This recipe illustrates three of them by wiring three buttons in different ways.
+C# is versatile and offers us several ways of handling button clicks in Android. This recipe illustrates three ways of wiring a button.
 
 ![buttons before](/ButtonDroid/Screenshots/01.png)
 ![buttons after](/ButtonDroid/Screenshots/02.png)
 
 Recipe
 ======
+![buttons in designer](/ButtonDroid/Screenshots/03.png)
 <ol>
 <li>
-<p>First, we'll open our layout file in the Android designer and drag three buttons onto the design surface. We'll edit the properties to give each button a unique id:</p>
-
-<p>![buttons in designer](/ButtonDroid/Screenshots/03.png)</p>
-
+<p>First, we'll open our layout file in the Android designer and drag three buttons onto the design surface. We'll edit the properties to give each button a unique id, as illustrated by the screenshot above.</p>
 </li>
 
 <li>

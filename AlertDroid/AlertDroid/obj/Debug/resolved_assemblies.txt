@@ -1,1 +1,0 @@
-/Users/Administrator/Desktop/git/xamarin-recipes/AlertDroid/AlertDroid/bin/Debug/AlertDroid.dll

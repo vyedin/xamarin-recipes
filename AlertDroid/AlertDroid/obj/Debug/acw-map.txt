@@ -1,1 +1,0 @@
-AlertDroid.MainActivity;alertdroid.MainActivity

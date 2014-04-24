@@ -52,7 +52,7 @@ namespace AlertSpinner
 			};
 		}
 
-		private void ItemSelected (object sender, AdapterView.ItemSelectedEventArgs e)
+		void ItemSelected (object sender, AdapterView.ItemSelectedEventArgs e)
 		{
 			// get reference to spinner (sender)
 			Spinner spinner = (Spinner)sender;

@@ -37,9 +37,9 @@ builder.Show();</code></pre>
 </li>
 <li>
 <p>Finally, we'll get the user-selected value by calling <code>GetItemAtPosition</code>:</p>
-<pre><code>private void ItemSelected (object sender, AdapterView.ItemSelectedEventArgs e)
+<pre><code>void ItemSelected (object sender, AdapterView.ItemSelectedEventArgs e)
 {
-  Spinner spinner = (Spinner)sender;
+	Spinner spinner = (Spinner)sender;
 	button.Text = "Villain: " + spinner.GetItemAtPosition (e.Position);
 }</code></pre>
 </li>

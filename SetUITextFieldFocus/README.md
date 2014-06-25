@@ -1,5 +1,12 @@
+Setting the Focus to a UITextField
+==================================
+
+You can manually change the focus of a view to bring up the keyboard for entry in a <code>UITextField</code> without tapping it. 
+
+![Focus Screen](/SetUITextFieldFocus/ScreenShots/focusScreenShot.png)
+
 Recipe 
-------
+======
 
 You can manually change the focus of a view to bring up the keyboard for entry in a <code>UITextField</code> without tapping it. 
 
@@ -7,7 +14,7 @@ You can manually change the focus of a view to bring up the keyboard for entry i
 
 <pre><code>FocusTextField.BecomeFirstResponder ();</code></pre>
 
-![Focus Screen](/SetUITextFieldFocus/ScreenShots/focusScreenShot.png)
+
 
 Additional Information
 ----------------------

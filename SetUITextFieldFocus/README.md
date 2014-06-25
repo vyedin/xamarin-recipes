@@ -7,7 +7,7 @@ You can manually change the focus of a view to bring up the keyboard for entry i
 
 <pre><code>FocusTextField.BecomeFirstResponder ();</code></pre>
 
-![Focus Screen](SetUITextFieldFoucus/ScreenShots/focusScreenShot.png)
+![Focus Screen](SetUITextFieldFocus/ScreenShots/focusScreenShot.png)
 
 Additional Information
 ----------------------

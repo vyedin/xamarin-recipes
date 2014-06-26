@@ -36,7 +36,7 @@ Recipe
             
          <li><p> To play an alert, which plays the sound as well as vibrates the device, call <code>PlayAlertSound()</code> on our <code>SystemSound</code> instance.</p>
         
-        <pre><code>newSound.PlaySystemSound(); </code></pre>
+        <pre><code>newSound.PlayAlertSound(); </code></pre>
         </li>
         
         <li><p>To simply vibrate the device, call the <code>PlaySystemSound()</code> method on the <code>Vibrate</code> field of the <code>SystemSound</code> class. </p>

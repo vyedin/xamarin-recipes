@@ -1,14 +1,14 @@
 Setting the Focus to a UITextField
 ==================================
 
-You can manually change the focus of a view to bring up the keyboard for entry in a <code>UITextField</code> without tapping it. 
+We can manually change the focus of a view to bring up the keyboard for entry in a <code>UITextField</code> without tapping it. 
 
 ![Focus Screen](/SetUITextFieldFocus/ScreenShots/focusScreenShot.png)
 
 Recipe 
 ======
 
-<p>If you want the <code>UITextField</code>, in this case named <code>FocusTextField</code>, selected as soon as you open your view, place the following line of code in the <code>ViewDidLoad ()</code> method in your view controller:</p>
+<p>To have our <code>UITextField</code>, in this case named <code>FocusTextField</code>, selected as soon as we open the view, we can place the following line of code in the <code>ViewDidLoad ()</code> method:</p>
 
 <pre><code>FocusTextField.BecomeFirstResponder ();</code></pre>
 
@@ -17,4 +17,4 @@ Recipe
 Additional Information
 ----------------------
 
-You can call <code>BecomeFirstResponder ()</code> on a <code>UITextField</code> at any point to switch focus - not just inside <code>ViewDidLoad ()</code>.
+We can call <code>BecomeFirstResponder ()</code> on a <code>UITextField</code> at any point to switch focus - not just inside <code>ViewDidLoad ()</code>.

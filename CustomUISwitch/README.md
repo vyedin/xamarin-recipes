@@ -28,7 +28,7 @@ The properties in <code>UISwitch</code> that give control over appearance are <c
 
 <pre><code>CustomSwitch.ThumbTintColor = lightP;</code></pre>
 
-* <p>To handle value changes in your <code>UISwith</code> place the following code in your <code>ViewDidLoad()</code> method.</p
+* <p>To handle value changes in your <code>UISwith</code> place the following code in your <code>ViewDidLoad()</code> method.</p>
 
 
 		     <pre><code>CustomSwitch.ValueChanged += delegate {

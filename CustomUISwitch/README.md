@@ -42,3 +42,8 @@ The properties in <code>UISwitch</code> that give control over appearance are <c
 			SwitchLabel.Text = "Switch is off";
 			}
 };</code></pre> 
+
+Additional Information
+======================
+
+The <code>OnImage</code> and <code>OffImage</code> properties have no effect in iOS 7. 

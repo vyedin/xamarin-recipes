@@ -1,6 +1,8 @@
 Customizing a UISwitch
 ======================
 
+![Custom UISwitch](/CustomUISwitch/Screenshots/CustomUISwitch.png)
+
 The <code>UISwitch</code> class contains properties that allow for customization of the color and state of a <code>UISwitch</code> instance. 
 
 
@@ -39,4 +41,4 @@ The properties in <code>UISwitch</code> that give control over appearance are <c
 			// Handle "Off" events here
 			SwitchLabel.Text = "Switch is off";
 			}
-		};</code></pre> 
+};</code></pre> 

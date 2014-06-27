@@ -1,7 +1,7 @@
 How to Truncate and Wrap Text in a UILabel
 =========================================
 
-The UILineBreakMode is an enumeration of values used to specify line break mode. This recipe illustrates the possible ways to truncate text using UILineBreakMode. 
+It is possible to change how text appears when it is too long for a given <code>UILabel</code>   This recipe illustrates the possible ways to truncate text using <code>UILineBreakMode</code>. 
 
 ![UILabel Example](/UILabelExample/Screenshots/UILabelScreenshot.png)
 
@@ -18,7 +18,7 @@ Recipe
       
       <li><p><code>Clip</code> mode has the text which does not fit to remain unrendered. We can set a  <code>UILabel</code> to this mode with the following line of code:</p>
       
-      <pre><code>		ClipLabel.LineBreakMode = UILineBreakMode.Clip;</code></pre>
+      <pre><code>ClipLabel.LineBreakMode = UILineBreakMode.Clip;</code></pre>
       </li>
       
       <li><p><code>HeadTruncation</code> mode has the <code>UILabel</code> show the end of the text and truncates the head to an ellipse. We can set a  <code>UILabel</code> to this mode with the following line of code:</p>
@@ -28,7 +28,7 @@ Recipe
       
       <li><p><code>MiddleTruncation</code> mode has the <code>UILabel</code> show the start and end of the text and truncates the middle to an ellipse. We can set a  <code>UILabel</code> to this mode with the following line of code:</p>
       
-      <pre><code>	MiddleLabel.LineBreakMode = UILineBreakMode.MiddleTruncation;</code></pre>
+      <pre><code>MiddleLabel.LineBreakMode = UILineBreakMode.MiddleTruncation;</code></pre>
       </li>
       
       <li><p><code>TailTruncation</code> mode has the <code>UILabel</code> show the start of the text and truncates the end to an ellipse. We can set a  <code>UILabel</code> to this mode with the following line of code:</p>

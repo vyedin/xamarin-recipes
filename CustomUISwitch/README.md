@@ -13,7 +13,7 @@ The properties in <code>UISwitch</code> that give control over appearance are <c
 
 
 
-* <p>Setting the <code>On</code> property to <code>true</code> or <code>false</code> allows you to set the state of the <code>UISwitch</code>. To have the UISwitch start in the on state when a view loads place the following code in your  <code>ViewDidLoad()</code> method:</p>
+* <p>Setting the <code>On</code> property to <code>true</code> or <code>false</code> allows you to set the state of the <code>UISwitch</code>. To have the <code>UISwitch</code> start in the on state when a view loads place the following code in your  <code>ViewDidLoad()</code> method:</p>
 
 <pre><code> CustomSwitch.On = false; </code></pre>
 

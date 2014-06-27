@@ -4,11 +4,12 @@ using System.Drawing;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
-namespace CustomUISwitch
+namespace DialPhoneURI
 {
-	public partial class CustomUISwitchViewController : UIViewController
+	public partial class DialPhoneURIViewController : UIViewController
 	{
-		public CustomUISwitchViewController (IntPtr handle) : base (handle)
+
+		public DialPhoneURIViewController (IntPtr handle) : base (handle)
 		{
 		}
 
@@ -27,28 +28,36 @@ namespace CustomUISwitch
 			base.ViewDidLoad ();
 			
 			// Perform any additional setup after loading the view, typically from a nib.
-			CustomSwitch.On = false;
+			//CallButton.Enabled = false;
+			PhoneTextField.KeyboardType = UIKeyboardType.PhonePad;
+			//PhoneTextField.BecomeFirstResponder();
 
-			//Initialize Text and Switch Settings 
-			SwitchLabel.Text = "Switch is off";
-			CustomSwitch.OnTintColor = UIColor.Purple;
+			PhoneTextField.TouchUpInside += (object sender, EventArgs e) => 
+			{
+				CallButton.Enabled = true; 
 
-			// Create custom UIColor 
-			UIColor lightP = UIColor.FromRGB (184, 152, 205);
-			// Set Tint and ThumbTintColors
-			CustomSwitch.TintColor = lightP;
-			CustomSwitch.ThumbTintColor = lightP;
-
-
-			//Handle CustomSwitch Value Change 
-			CustomSwitch.ValueChanged += delegate {
-				//Check to see new value, change Switch Label Accordingly 
-				if (CustomSwitch.On) {
-					SwitchLabel.Text = "Switch is on";
-				} else {
-					SwitchLabel.Text = "Switch is off";
-				}
 			};
+
+			CallButton.TouchUpInside += (object sender, EventArgs e) => {
+			
+				// Create a NSUrl 
+				var url = new NSUrl ("tel:" + PhoneTextField.Text);
+
+				// Use URL handler with tel: prefix to invoke Apple's Phone app, 
+				// otherwise show an alert dialog                
+
+				if (!UIApplication.SharedApplication.OpenUrl (url)) {
+					var av = new UIAlertView ("Not supported",
+						"Scheme 'tel:' is not supported on this device",
+						null,
+						"OK",
+						null);
+					av.Show ();
+				}
+
+			};
+
+
 
 		}
 

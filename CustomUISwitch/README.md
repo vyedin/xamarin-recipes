@@ -19,7 +19,7 @@ The properties in <code>UISwitch</code> that give control over appearance are <c
 
 <pre><code>CustomSwitch.OnTintColor = UIColor.Purple;</code></pre>
 
-* <p>Use the <code>TintColor</code> property to set the outline color of the <code>UISwitch</code> while it is in the off state. The following code demonstrates both how to initialize a custom <code>UIColor</code> and set it to be the <code>TintColor</code>: </p> 
+* <p>Use the <code>TintColor</code> property to set the outline color of the <code>UISwitch</code> while it is in the off state. The following code demonstrates both how to initialize a custom <code>UIColor</code> and set it to be the <code>TintColor</code>:</p> 
 
 <pre><code>UIColor lightP = UIColor.FromRGB (184, 152, 205);
 	   CustomSwitch.TintColor = lightP;</code></pre>
@@ -30,14 +30,13 @@ The properties in <code>UISwitch</code> that give control over appearance are <c
 
 * <p>To handle value changes in your <code>UISwith</code> place the following code in your <code>ViewDidLoad()</code> method.</p>
 
-
-		     <pre><code>CustomSwitch.ValueChanged += delegate {
-				//Check to see new value, change Switch Label Accordingly 
-				if (CustomSwitch.On) {
-				// Handle "On" events here
-					SwitchLabel.Text = "Switch is on";
-				} else {
-				// Handle "Off" events here
-					SwitchLabel.Text = "Switch is off";
-				}
-			   };</code></pre> 
+<pre><code>CustomSwitch.ValueChanged += delegate {
+ 		//Check to see new value, change Switch Label Accordingly 
+		if (CustomSwitch.On) {
+			// Handle "On" events here
+			SwitchLabel.Text = "Switch is on";
+		} else {
+			// Handle "Off" events here
+			SwitchLabel.Text = "Switch is off";
+			}
+		};</code></pre> 

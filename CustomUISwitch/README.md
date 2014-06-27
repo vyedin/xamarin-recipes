@@ -3,17 +3,14 @@ Customizing a UISwitch
 
 ![Custom UISwitch](/CustomUISwitch/Screenshots/CustomUISwitch.png)
 
-The <code>UISwitch</code> class contains properties that allow for customization of the color and state of a <code>UISwitch</code> instance. 
+This recipe describes how to use the <code>On</code>, <code>OnTintColor</code>, and <code>ThumbTintColor</code> properties to control <code>UISwitch</code> appearance. 
 
 
 Recipe
 ======
 
-The properties in <code>UISwitch</code> that give control over appearance are <code>On</code>, <code>OnTintColor</code>, and <code>ThumbTintColor</code>.
 
-
-
-* <p>Setting the <code>On</code> property to <code>true</code> or <code>false</code> allows you to set the state of the <code>UISwitch</code>. To have the <code>UISwitch</code> start in the on state when a view loads, place the following code in your  <code>ViewDidLoad()</code> method:</p>
+* <p>We can set the boolean <code>On</code> property to control the state of the <code>UISwitch</code>. Let's add the following code in our  <code>ViewDidLoad()</code> method to disable the switch:</p>
 
 <pre><code> CustomSwitch.On = false; </code></pre>
 

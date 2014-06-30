@@ -18,6 +18,7 @@ Recipe
         
         <code> NSUrl url;
 		SystemSound newSound;</code>
+	</li>
         
         <li><p> Once the variables are declared, assign a <code>NSUrl</code> to the <code>url</code> variable to reference your sound file in your <code>ViewDidLoad()</code> method:</p>
         

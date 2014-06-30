@@ -19,7 +19,7 @@ Recipe
   
     UIApplication.SharedApplication.OpenUrl (url);
   
-  <li><p>Since emulators don't support the system Phone app, we should attempt to create our scheme inside the following conditional statement:</p>
+  <li><p>Since emulators don't support the system Phone app, we should instead attempt to create our scheme inside the following conditional statement:</p>
   
     if (!UIApplication.SharedApplication.OpenUrl (url)) {
     	var av = new UIAlertView ("Not supported",

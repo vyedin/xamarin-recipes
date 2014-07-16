@@ -4,12 +4,15 @@ using System.Drawing;
 using MonoTouch.Foundation;
 using MonoTouch.UIKit;
 
-namespace DialPhoneURI
+namespace ScreenSize
 {
-	public partial class DialPhoneURIViewController : UIViewController
+	public partial class ScreenSizeViewController : UIViewController
 	{
+		static bool UserInterfaceIdiomIsPhone {
+			get { return UIDevice.CurrentDevice.UserInterfaceIdiom == UIUserInterfaceIdiom.Phone; }
+		}
 
-		public DialPhoneURIViewController (IntPtr handle) : base (handle)
+		public ScreenSizeViewController (IntPtr handle) : base (handle)
 		{
 		}
 
@@ -28,36 +31,11 @@ namespace DialPhoneURI
 			base.ViewDidLoad ();
 			
 			// Perform any additional setup after loading the view, typically from a nib.
-			//CallButton.Enabled = false;
-			PhoneTextField.KeyboardType = UIKeyboardType.PhonePad;
-			//PhoneTextField.BecomeFirstResponder();
 
-			PhoneTextField.TouchUpInside += (object sender, EventArgs e) => 
-			{
-				CallButton.Enabled = true; 
-
-			};
-
-			CallButton.TouchUpInside += (object sender, EventArgs e) => {
-			
-				// Create a NSUrl 
-				var url = new NSUrl ("tel:" + PhoneTextField.Text);
-
-				// Use URL handler with tel: prefix to invoke Apple's Phone app, 
-				// otherwise show an alert dialog                
-
-
-				if (!UIApplication.SharedApplication.OpenUrl (url)) {
-					var av = new UIAlertView ("Not supported",
-						"Scheme 'tel:' is not supported on this device",
-						null,
-						"OK",
-						null);
-					av.Show ();
-
-
-					};
-
+			RectangleF screenRect = UIScreen.MainScreen.Bounds;
+			float height = screenRect.Height;
+			float width = screenRect.Width;
+			sizeLabel.Text =  "Height in pixels: " + height + " Width in pixels: " + width;
 
 
 		}

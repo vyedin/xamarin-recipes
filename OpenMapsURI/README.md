@@ -29,7 +29,7 @@ Recipe
 Additional Information
 ======================
 
-There are a variety of parameters that can be appended onto </code>"http://maps.apple.com/?"</code> that can specify the information loaded by the Maps app. In this example, we used the query parameter, <code>"q="</code>, which loads the following string as if it had been typed into the query box in the Maps app. To see all available parameters, see the [Apple URL Scheme Reference](https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MapLinks/MapLinks.html)
+There are a variety of parameters that can be appended onto <code>"http://maps.apple.com/?"</code> that can specify the information loaded by the Maps app. In this example, we used the query parameter, <code>"q="</code>, which loads the following string as if it had been typed into the query box in the Maps app. To see all available parameters, see the [Apple URL Scheme Reference](https://developer.apple.com/library/ios/featuredarticles/iPhoneURLScheme_Reference/MapLinks/MapLinks.html)
 
 
 

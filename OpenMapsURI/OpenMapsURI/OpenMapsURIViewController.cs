@@ -37,14 +37,8 @@ namespace OpenMapsURI
 			String cityAddress = cityText.Text.Replace (' ', '+');
 			var url = new NSUrl ("http://maps.apple.com/?q="+ cityAddress);
 			
-				if (!UIApplication.SharedApplication.OpenUrl (url)) {
-					var av = new UIAlertView ("Not supported",
-						"Scheme 'tel:' is not supported on this device",
-						null,
-						"OK",
-						null);
-					av.Show ();
-				};
+			UIApplication.SharedApplication.OpenUrl (url);
+					
 		}
 
 		public override void ViewWillAppear (bool animated)

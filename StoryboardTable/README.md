@@ -151,12 +151,16 @@ public class RootTableSource : UITableViewSource {
   
 <p>Next, replace the code in the <code>MasterViewController</code> with the following code: </p>
 
-<code>
-using System;
+<code>using System;
+
 using System.Drawing;
+
 using System.Collections.Generic;
+
 using MonoTouch.Foundation;
+
 using MonoTouch.UIKit;
+
 namespace StoryboardTable
 {
 	public partial class MasterViewController : UITableViewController
@@ -270,9 +274,13 @@ namespace StoryboardTable
 
 <code>
 using System;
+
 using MonoTouch.Foundation;
+
 using MonoTouch.UIKit;
+
 using System.CodeDom.Compiler;
+
 
 
 namespace StoryboardTable

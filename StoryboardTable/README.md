@@ -7,7 +7,7 @@ Recipe
 ======
 
 To create a Storyboard-based application using a TableView:
-<p>Create a new solution in Xamarin Studio using <em>File > Solution > iOS > iPhone Storyboard > Master-Detail Application<em>.</p>
+<p>Create a new solution in Xamarin Studio using <strong>File > Solution > iOS > iPhone Storyboard > Master-Detail Application<strong>. </p>
 
 ![Create Project](/StoryboardTable/Screenshots/image14a.png)
 <p>Double-click the <code>.storyboard</code> file to open it in the iOS Designer:</p>
@@ -36,9 +36,9 @@ Let's follow these steps to delete the existing Detail view and replace it with 
 
 <p>Next, change the following settings:</p>
 <ol>
-    <li><p>Change the Master View to be *Content: Dynamic Prototypes* (the View on the Design Surface will be labelled *Prototype Content*).</p></li>
-    <li><p>Change the new UITableViewController to be *Content: Static Cells*.</p></li>
-    <li><p>Select the View Controller and type *TaskDetailViewController* for the Class in the Properties Pad.</p></li>
+    <li><p>Change the Master View to be <em>Content: Dynamic Prototypes<em> (the View on the Design Surface will be labelled *Prototype Content*).</p></li>
+    <li><p>Change the new UITableViewController to be <em>Content: Static Cells</em>.</p></li>
+    <li><p>Select the View Controller and type <em>TaskDetailViewController</em> for the Class in the Properties Pad.</p></li>
     <li><p>Finally, enter the StoryboardID as detail, illustrated in the example below.</p></li>
 </ol>
 
@@ -49,7 +49,7 @@ Let's follow these steps to delete the existing Detail view and replace it with 
 
 Create the UI
 =============
-First, select the prototype cell in the Master View Controller and set the Identifier as *taskcell*, as illustrated below: 
+First, select the prototype cell in the Master View Controller and set the Identifier as <em>taskcell<em>, as illustrated below: 
 ![Storyboard ID](/StoryboardTable/Screenshots/image22a.png)
 Next, follow these steps to create a button that will add new tasks:
 <ol>
@@ -61,30 +61,30 @@ Now we must build the DetailView. The screenshot below shows the finished UI:
 ![Storyboard ID](/StoryboardTable/Screenshots/image24a.png)
 <p>To build the complete layout, first select the table view and open the Property Pad. Update the following properties as follows:</p>
 <ol>
-    <li><p>Sections: *2*</p></li>
-    <li><p>Style: *Grouped*</p></li>
-    <li><p>Seperator: *None*</p></li>
-    <li><p>Selection: *No Selection*</p></li>
+    <li><p>Sections: <strong>2</strong></p></li>
+    <li><p>Style: <strong>Grouped</strong></p></li>
+    <li><p>Seperator: <strong>None</strong></p></li>
+    <li><p>Selection: <strong>No Selection</strong></p></li>
 </ol> 
-<p>Now, select the top section of the DetailView and under *Properties > Table View Section* change rows to '3', as illustrated below:</p>
+<p>Now, select the top section of the DetailView and under <strong>Properties > Table View Section</strong> change rows to '3', as illustrated below:</p>
 ![Storyboard ID](/StoryboardTable/Screenshots/image29.png)
 <p>For each cell in Section 1 open the Properties Pad and set:</p>
 <ol>
-    <li><p>Style: *Custom*</p></li>
-    <li><p>Identifier: *choose a unique identifier for each cell (eg. “title”, “notes”, “done”).*</p></li>
+    <li><p>Style: <strong>Custom</strong></p></li>
+    <li><p>Identifier: <strong>choose a unique identifier for each cell (eg. “title”, “notes”, “done”).</strong></p></li>
     <li><p>Drag the required controls to produce the layout shown in the screenshot (place UILabel, UITextField and UISwitch on the correct cells, and set the labels appropriately, ie. Title, Notes and          Done).</p></li>
-    <li><p>Selection: *No Selection*</p></li>
+    <li><p>Selection: <strong>No Selection</strong></p></li>
 </ol>
 
 <p>In the second section, set the number of Rows to 1 and grab the bottom resize handle to make it taller. Select the cell in the Properties pad and set:</p>
 
 <ol>
-    <li><p>Identifier: *to a unique value in the Property Pad(eg. “save”)*.</p></li>
-    <li><p>Background: *Clear Color*</p></li>
+    <li><p>Identifier: <strong>to a unique value in the Property Pad(eg. “save”)</strong>.</p></li>
+    <li><p>Background: <strong>Clear Color</strong></p></li>
     <li><p>Drag two buttons onto the cell and set their titles appropriately (i.e. Save and Delete).</p></li>
 </ol>
 
-<p>The last step in creating our Storyboard is giving each of our controls a name under *Identity > Name*. Name these as follows: </p>
+<p>The last step in creating our Storyboard is giving each of our controls a name under <strong>Identity > Name</strong>. Name these as follows: </p>
 
 <ol>
     <li><p>Title UITextField: TitleText</p></li>

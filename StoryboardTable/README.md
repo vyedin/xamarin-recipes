@@ -38,8 +38,10 @@ Let's follow these steps to delete the existing Detail view and replace it with 
     <li><p>Select the View Controller and type *TaskDetailViewController* for the Class in the Properties Pad.</p></li>
     <li><p>Finally, enter the StoryboardID as detail, illustrated in the example below.</p></li>
 </ol>
-![Storyboard ID](/StoryboardTable/Screenshots/image18a.png)
-Once we change the Master view's title to "Choreboard", the storyboard design surface should look like this: 
+<p>
+![Storyboard ID](/StoryboardTable/Screenshots/image18a.png)</p>
+
+<p>Once we change the Master view's title to "Choreboard", the storyboard design surface should look like this:</p>
 ![Storyboard ID](/StoryboardTable/Screenshots/image20a.png)
 
 Create the UI

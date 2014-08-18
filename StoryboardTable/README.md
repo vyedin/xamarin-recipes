@@ -66,7 +66,7 @@ Now we must build the DetailView. The screenshot below shows the finished UI:
     <li><p>Seperator: *None*</p></li>
     <li><p>Selection: *No Selection*</p></li>
 </ol> 
-Now, select the top section of the DetailView and under *Properties > Table View Section* change rows to '3', as illustrated below:
+<p>Now, select the top section of the DetailView and under *Properties > Table View Section* change rows to '3', as illustrated below:</p>
 ![Storyboard ID](/StoryboardTable/Screenshots/image29.png)
 <p>For each cell in Section 1 open the Properties Pad and set:</p>
 <ol>
@@ -79,7 +79,7 @@ Now, select the top section of the DetailView and under *Properties > Table View
 <p>In the second section, set the number of Rows to 1 and grab the bottom resize handle to make it taller. Select the cell in the Properties pad and set:</p>
 
 <ol>
-    <li><p>Identifier: *to a unique value in the Property Pad(eg. “save”).</p></li>
+    <li><p>Identifier: *to a unique value in the Property Pad(eg. “save”)*.</p></li>
     <li><p>Background: *Clear Color*</p></li>
     <li><p>Drag two buttons onto the cell and set their titles appropriately (i.e. Save and Delete).</p></li>
 </ol>

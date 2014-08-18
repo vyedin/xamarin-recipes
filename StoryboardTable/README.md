@@ -101,7 +101,7 @@ Our storyboard is now complete, now we must add code to run the application.
 
 <p>First, create a Chores class and add the following code:</p>
 
-<code>public class Chore {
+<pre><code>public class Chore {
 
     public Chore ()
     {
@@ -111,12 +111,11 @@ Our storyboard is now complete, now we must add code to run the application.
     public string Name { get; set; }
     public string Notes { get; set; }
     public bool Done { get; set; }
-  }
-  </code>
+  }</code></pre>
 
 <p>Next, create a <code>RootTableSource</code> class that inheirits from <code>UITableViewSource</code>. Populate the class with the following code:</p>
 
-<code> 
+<pre><code> 
 public class RootTableSource : UITableViewSource {
 
     // there is NO database or storage of Tasks in this example, just an in-memory List<>
@@ -146,21 +145,15 @@ public class RootTableSource : UITableViewSource {
     public Chore GetItem(int id) {
       return tableItems[id];
     }
-  }
-  </code>
+  }</code>
   
 <p>Next, replace the code in the <code>MasterViewController</code> with the following code: </p>
 
 <code>using System;
-
 using System.Drawing;
-
 using System.Collections.Generic;
-
 using MonoTouch.Foundation;
-
 using MonoTouch.UIKit;
-
 namespace StoryboardTable
 {
 	public partial class MasterViewController : UITableViewController
@@ -268,21 +261,15 @@ namespace StoryboardTable
 
 	}
 }
-</code>
+</code></pre>
 
 <p>Next, replace the <code>TaskDetailViewController</code> with the following code:</p>
 
-<code>
+<pre><code>
 using System;
-
 using MonoTouch.Foundation;
-
 using MonoTouch.UIKit;
-
 using System.CodeDom.Compiler;
-
-
-
 namespace StoryboardTable
 {
 	partial class TaskDetailViewController : UITableViewController
@@ -326,7 +313,7 @@ namespace StoryboardTable
 		}
 	}
 }
-</code>
+</code></pre>
 
 When run, the app should look as follows:
 ![Screenshots](/StoryboardTable/Screenshots/image28a.png)

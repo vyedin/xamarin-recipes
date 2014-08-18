@@ -145,7 +145,7 @@ public class RootTableSource : UITableViewSource {
     public Chore GetItem(int id) {
       return tableItems[id];
     }
-  }</code>
+  }</code></pre>
   
 <p>Next, replace the code in the <code>MasterViewController</code> with the following code: </p>
 

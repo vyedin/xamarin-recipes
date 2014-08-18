@@ -87,11 +87,11 @@ Now we must build the DetailView. The screenshot below shows the finished UI:
 <p>The last step in creating our Storyboard is giving each of our controls a name under <strong>Identity > Name</strong>. Name these as follows: </p>
 
 <ol>
-    <li><p>Title UITextField: TitleText</p></li>
-    <li><p>Notes UITextField: NotesText</p></li>
-    <li><p>UISwitch: DoneSwitch</p></li>
-    <li><p>Delete UIButton: DeleteButton</p></li>
-    <li><p>Save UIButton: SaveButton</p></li>
+    <li><p>Title UITextField: <strong>TitleText</strong></p></li>
+    <li><p>Notes UITextField: <strong>NotesText</strong></p></li>
+    <li><p>UISwitch: <strong>DoneSwitch</strong></p></li>
+    <li><p>Delete UIButton: <strong>DeleteButton</strong></p></li>
+    <li><p>Save UIButton: <strong>SaveButton</strong></p></li>
 </ol>
 
 Adding Code
@@ -149,7 +149,7 @@ public class RootTableSource : UITableViewSource {
   
 <p>Next, replace the code in the <code>MasterViewController</code> with the following code: </p>
 
-<code>using System;
+<pre><code>using System;
 using System.Drawing;
 using System.Collections.Generic;
 using MonoTouch.Foundation;

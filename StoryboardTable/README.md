@@ -30,6 +30,7 @@ Let's follow these steps to delete the existing Detail view and replace it with 
     <li><p>Drag a UITableViewController onto the Storyboard from the Object Library.</p></li>
     <li><p>Create a segue from the Master View Controller to the View Controller that was just added. To create the segue, Control+drag from the Detail cell to the newly added UITableViewController. Choose the option Push under Segue Selection</p></li>
     <li><p>Select the new segue you created and give it an identifier to reference this segue in code. Click on the segue and enter “TaskSegue” for the Identifier in the Properties Pad, like this:</p></li>
+    </ol>
 	![Segue](/StoryboardTable/Screenshots/image16a.png)
 Next, change the following settings:
 <ol>

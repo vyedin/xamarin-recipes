@@ -1,7 +1,7 @@
 Storyboard Tables
 ====================
 
-It is possible to use a Storyboard to create custom Table Views. This recipe demonstrates how to create both Dynamic Prototype and Static content for cells in a table using the Storyboard. 
+It is possible to use a Storyboard to create custom Table Views. This recipe demonstrates how to create both Dynamic Prototype and Static content for cells in a table using the Storyboard. For a more in-depth guide, visit the [Walkthrough](http://developer.xamarin.com/guides/ios/user_interface/tables/part_5_-_creating_Tables_in_a_Storyboard/).
 
 Recipe
 ======

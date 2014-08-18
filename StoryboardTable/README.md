@@ -7,7 +7,7 @@ Recipe
 ======
 
 To create a Storyboard-based application using a TableView:
-<p>Create a new solution in Xamarin Studio using File > Solution > iOS > iPhone Storyboard > Master-Detail Application.</p>
+<p>Create a new solution in Xamarin Studio using <em>File > Solution > iOS > iPhone Storyboard > Master-Detail Application<em>.</p>
 
 ![Create Project](/StoryboardTable/Screenshots/image14a.png)
 <p>Double-click the <code>.storyboard</code> file to open it in the iOS Designer:</p>

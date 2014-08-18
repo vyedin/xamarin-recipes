@@ -9,9 +9,9 @@ Recipe
 To create a Storyboard-based application using a TableView:
 <p>Create a new solution in Xamarin Studio using *File > Solution > iOS > iPhone Storyboard > Master-Detail Application*.</p>
 
-![Create Project](/StoryboardTable/Screenshots/Image14a.png)
+![Create Project](/StoryboardTable/Screenshots/image14a.png)
 <p>Double-click the <code>.storyboard</code> file to open it in the iOS Designer:</p>
-![iOS Designer](/StoryboardTable/Screenshots/Image20a.png)
+![iOS Designer](/StoryboardTable/Screenshots/image20a.png)
 
 We will modify the storyboard in three steps:
 <ol>
@@ -30,21 +30,21 @@ Let's follow these steps to delete the existing Detail view and replace it with 
     <li><p>Drag a UITableViewController onto the Storyboard from the Object Library.</p></li>
     <li><p>Create a segue from the Master View Controller to the View Controller that was just added. To create the segue, Control+drag from the Detail cell to the newly added UITableViewController. Choose the option Push under Segue Selection</p></li>
     <li><p>Select the new segue you created and give it an identifier to reference this segue in code. Click on the segue and enter “TaskSegue” for the Identifier in the Properties Pad, like this:</p></li></ol>
-![iOS Designer](/StoryboardTable/Screenshots/Image16a.png)
+![iOS Designer](/StoryboardTable/Screenshots/image16a.png)
 <ol>
     <li><p>Change the Master View to be *Content: Dynamic Prototypes* (the View on the Design Surface will be labelled *Prototype Content*).</p></li></ol>
     <li><p>Change the new UITableViewController to be *Content: Static Cells*.</p></li>
     <li><p>Select the View Controller and type *TaskDetailViewController* for the Class in the Properties Pad.</p></li>
     <li><p>Finally, enter the StoryboardID as detail, illustrated in the example below.</p></li>
 </ol>
-![Storyboard ID](/StoryboardTable/Screenshots/Image18a.png)
+![Storyboard ID](/StoryboardTable/Screenshots/image18a.png)
 Once we change the Master view's title to "Choreboard", the storyboard design surface should look like this: 
-![Storyboard ID](/StoryboardTable/Screenshots/Image20a.png)
+![Storyboard ID](/StoryboardTable/Screenshots/image20a.png)
 
 Create the UI
 =============
 First, select the prototype cell in the Master View Controller and set the Identifier as *taskcell*, as illustrated below: 
-![Storyboard ID](/StoryboardTable/Screenshots/Image22a.png)
+![Storyboard ID](/StoryboardTable/Screenshots/image22a.png)
 Next, follow these steps to create a button that will add new tasks:
 <ol>
     <li><p>Drag a Bar Button Item from the Toolbox into the navigation bar</p></li>
@@ -52,7 +52,7 @@ Next, follow these steps to create a button that will add new tasks:
     <li><p>Enter "AddButton" as the Name. This will enable us to refer to it in code at a later stage.</p></li>
 </ol>
 Now we must build the DetailView. The screenshot below shows the finished UI:
-![Storyboard ID](/StoryboardTable/Screenshots/Image24a.png)
+![Storyboard ID](/StoryboardTable/Screenshots/image24a.png)
 To build the complete layout, first select the table view and open the Property Pad. Update the following properties as follows:
 <ol>
     <li><p>Sections: *2*</p></li>
@@ -61,7 +61,7 @@ To build the complete layout, first select the table view and open the Property 
     <li><p>Selection: *No Selection*</p></li>
 </ol> 
 Now, select the top section of the DetailView and under *Properties > Table View Section* change rows to '3', as illustrated below:
-![Storyboard ID](/StoryboardTable/Screenshots/Image29.png)
+![Storyboard ID](/StoryboardTable/Screenshots/image29.png)
 <p>For each cell in Section 1 open the Properties Pad and set:</p>
 <ol>
     <li><p>Style: *Custom*</p></li>
@@ -317,5 +317,5 @@ namespace StoryboardTable
 </code>
 
 When run, the app should look as follows:
-![Screenshots](/StoryboardTable/Screenshots/Image28a.png)
+![Screenshots](/StoryboardTable/Screenshots/image28a.png)
 

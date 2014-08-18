@@ -59,7 +59,7 @@ Next, follow these steps to create a button that will add new tasks:
 </ol>
 Now we must build the DetailView. The screenshot below shows the finished UI:
 ![Storyboard ID](/StoryboardTable/Screenshots/image24a.png)
-To build the complete layout, first select the table view and open the Property Pad. Update the following properties as follows:
+<p>To build the complete layout, first select the table view and open the Property Pad. Update the following properties as follows:</p>
 <ol>
     <li><p>Sections: *2*</p></li>
     <li><p>Style: *Grouped*</p></li>

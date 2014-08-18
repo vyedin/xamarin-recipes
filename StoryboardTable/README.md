@@ -49,7 +49,7 @@ Let's follow these steps to delete the existing Detail view and replace it with 
 
 Create the UI
 =============
-First, select the prototype cell in the Master View Controller and set the Identifier as <em>taskcell<em>, as illustrated below: 
+First, select the prototype cell in the Master View Controller and set the Identifier as <em>taskcell</em>, as illustrated below: 
 ![Storyboard ID](/StoryboardTable/Screenshots/image22a.png)
 Next, follow these steps to create a button that will add new tasks:
 <ol>

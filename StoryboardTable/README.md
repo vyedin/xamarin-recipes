@@ -29,17 +29,17 @@ Let's follow these steps to delete the existing Detail view and replace it with 
     <li><p>Select the black bar at the bottom of the Detail View and delete it.</p></li>
     <li><p>Drag a UITableViewController onto the Storyboard from the Object Library.</p></li>
     <li><p>Create a segue from the Master View Controller to the View Controller that was just added. To create the segue, Control+drag from the Detail cell to the newly added UITableViewController. Choose the option Push under Segue Selection</p></li>
-    <li><p>Select the new segue you created and give it an identifier to reference this segue in code. Click on the segue and enter “TaskSegue” for the Identifier in the Properties Pad, like this:</p>
+    <li><p>Select the new segue you created and give it an identifier to reference this segue in code. Click on the segue and enter “TaskSegue” for the Identifier in the Properties Pad, like this:</p></li>
 	![Segue](/StoryboardTable/Screenshots/image16a.png)
-</li>
-
+Next, change the following settings:
+<ol>
     <li><p>Change the Master View to be *Content: Dynamic Prototypes* (the View on the Design Surface will be labelled *Prototype Content*).</p></li>
     <li><p>Change the new UITableViewController to be *Content: Static Cells*.</p></li>
     <li><p>Select the View Controller and type *TaskDetailViewController* for the Class in the Properties Pad.</p></li>
     <li><p>Finally, enter the StoryboardID as detail, illustrated in the example below.</p></li>
 </ol>
-<p>
-![Storyboard ID](/StoryboardTable/Screenshots/image18a.png)</p>
+
+![Storyboard ID](/StoryboardTable/Screenshots/image18a.png)
 
 <p>Once we change the Master view's title to "Choreboard", the storyboard design surface should look like this:</p>
 ![Storyboard ID](/StoryboardTable/Screenshots/image20a.png)

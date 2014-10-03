@@ -15,13 +15,11 @@ Recipe
 
 <li>
 <p>Next, in our backing Activity, we'll start by including the Android text to speech library:</p>
-<pre><code>
-using Android.Speech.Tts;
+<pre><code>using Android.Speech.Tts;
 </code></pre>
 
 <p>Now, we can delcare a <code>TextToSpeech</code> object as a member of our <code>MainActivity</code> class.</p>
-<pre><code>
-private TextToSpeech tts;
+<pre><code>private TextToSpeech tts;
 </code></pre>
 
 <p>In order for our <code>TextToSpeech</code> instance to work, it needs to have an <code>IOnInitListener</code>. Let's have our <code>MainActivity</code> class implement <code>TextToSpeech.IOnInitListener</code>.
@@ -30,16 +28,14 @@ public class MainActivity : Activity, TextToSpeech.IOnInitListener
 </code></pre>
 
 <p>Then, in our <code>OnCreate</code> method, we can instantiate <code>tts</code>, passing the <code>MainActivity</code> class as the <code>context</code> and the <code>IOnInitListener</code>.</p>
-<pre><code>
-tts = new TextToSpeech(this, this);
+<pre><code>tts = new TextToSpeech(this, this);
 tts.SetLanguage(Java.Util.Locale.Us);
 </code></pre>
 </li>
 
 <li>
 <p>Now that our <code>MainActivity</code> class implements <code>IOnInitListener</code>, we need to create the <code>OnInit</code> method required by that interface.</p>
-<pre><code>
-public void OnInit(OperationResult result)
+<pre><code>public void OnInit(OperationResult result)
 {
 	if (result == OperationResult.Success) {
 		tts.SetLanguage (Java.Util.Locale.Us);
@@ -53,14 +49,12 @@ public void OnInit(OperationResult result)
 
 <li>
 <p>Finally, in our <code>OnCreate</code> method, we will get references to our <code>Button</code> and <code>EditText</code> objects we created in the designer.</p>
-<pre><code>
-Button speakButton = FindViewById<Button> (Resource.Id.SpeakButton);
+<pre><code>Button speakButton = FindViewById<Button> (Resource.Id.SpeakButton);
 EditText textToConvert = FindViewById<EditText> (Resource.Id.ToSpeechText);
 </code></pre>
 
 <p>We will also wire up our <code>speakButton</code> to convert the entered text to audio.</p>
-<pre><code>
-speakButton.Click += (object sender, EventArgs e) =>  {
+<pre><code>speakButton.Click += (object sender, EventArgs e) =>  {
 	tts.Speak(textToConvert.Text, QueueMode.Flush, null);
 };
 </code></pre>

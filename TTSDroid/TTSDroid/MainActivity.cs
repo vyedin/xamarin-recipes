@@ -7,7 +7,6 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 using Android.Speech.Tts;
-using Android.Locations;
 
 namespace TTSDroid
 {
@@ -15,6 +14,7 @@ namespace TTSDroid
 	public class MainActivity : Activity, TextToSpeech.IOnInitListener
 	{
 		private TextToSpeech tts;
+
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
@@ -31,7 +31,6 @@ namespace TTSDroid
 
 			speakButton.Click += (object sender, EventArgs e) =>  {
 				tts.Speak(textToConvert.Text, QueueMode.Flush, null);
-				Console.WriteLine(textToConvert.Text);
 			};
 		}
 
